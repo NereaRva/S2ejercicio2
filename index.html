@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S2ejercicio2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="imagen">
+        <img src="caramono.png" alt="Cara mono">
+    </div>
+    <div class="form">
+        <h1>Welcome to Mailchimp</h1>
+        <p>Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's Plataform. Already have an account?<a href="next-pag">Log in</a></p>
+        <form action="next-pag">
+            <label for="mail">Email</label>
+            <input type="mail" name="Email" required>
+            <label for="Username">Usurname</label>
+            <input type="text" name="Username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}" required>
+            <div class="checkbox">
+                <button type="submit">Sign Up</button>
+                <label class="checkbox">
+                <input type="checkbox" name="miCheckbox"> I don't want to receive emails about new Mailchimp products, best practices, or special offers.
+                </label>
+            </div>
+        </form>
+        <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</p>
+    </div>
+</body>
+</html>

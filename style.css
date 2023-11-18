@@ -1,0 +1,29 @@
+body{
+    display: flex;
+}
+label, input{
+    margin-bottom: 10px;
+}
+img{
+    margin-left: 100px;
+    width: 50%;
+}
+button{
+    padding: 20px 50px;
+    margin-bottom: 20px;
+}
+.checkbox{
+    display: flex;  
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.imagen{
+    width: 40%;
+}
+.form{
+    width: 60%;
+    margin-right: 100px;
+}
